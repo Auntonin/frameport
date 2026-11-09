@@ -1,0 +1,18 @@
+{
+  "name": "FramePort synthetic example (configure for your own service)",
+  "login_page": "/login",
+  "login_path": "/example-api/sign-in",
+  "session_path": "/example-api/session",
+  "create_path": "/example-api/items",
+  "fields": {
+    "name": "name",
+    "description": "description",
+    "latitude": "latitude",
+    "longitude": "longitude",
+    "images": "images"
+  },
+  "images_per_location": 5,
+  "max_image_bytes": 5242880,
+  "max_name_length": 100,
+  "max_description_length": 500
+}
